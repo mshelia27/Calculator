@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    flex: 0 0 25%;
+    padding: 30px;
+    transition: all 2s ease;
+}
+button:hover{
+    background-color: blue;
+}
+.btn-yellow{
+background-color:orange;
+color: white;
+
+}
+.btn-grey{
+    background-color: gray;
+}
+
+body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+}
+.screen{
+    width: 99%;
+    padding:0.5rem;
+    background-color: black;
+    color: white;
+    font-size: 7rem;
+    border: none;
+}
+.calculator{
+flex:0 0 95%;
+}
+.buttons{
+    flex: 0 0 25%;
+    display: flex;
+    flex-wrap: wrap;
+    transition:all 0.5s linear;
+}
+.equal-Btn{
+    background-color: red;
+
+}
+.clear-Btn{
+    background-color: green;
+}
